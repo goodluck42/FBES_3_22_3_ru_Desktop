@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformsControls", "WinformsControls.csproj", "{E252B2DE-AED6-4416-9029-A22E6A483057}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E252B2DE-AED6-4416-9029-A22E6A483057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E252B2DE-AED6-4416-9029-A22E6A483057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E252B2DE-AED6-4416-9029-A22E6A483057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E252B2DE-AED6-4416-9029-A22E6A483057}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
