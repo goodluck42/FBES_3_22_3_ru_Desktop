@@ -39,7 +39,6 @@ namespace FormsNMVP.Presenters
 
         public void GetWeather(WeatherBy by)
         {
-            //ConfigurationManager.AppSettings[]
             using (var client = new WebClient())
             {
                 try
