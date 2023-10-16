@@ -15,6 +15,35 @@ namespace Strips
         public Form1()
         {
             InitializeComponent();
+
+            toolStripComboBox1.Items.Add("Item1");
+            toolStripComboBox1.Items.Add("Item2");
+            toolStripComboBox1.Items.Add("Item3");
+        }
+        
+        private void ExitApp(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form1_SizeChanged(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void mv(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
+        }
+
+        private void toolStripProgressBar1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
