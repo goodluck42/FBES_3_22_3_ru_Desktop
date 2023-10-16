@@ -207,7 +207,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 105);
+            this.textBox1.Location = new System.Drawing.Point(129, 361);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(578, 20);
             this.textBox1.TabIndex = 2;
@@ -232,6 +232,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);

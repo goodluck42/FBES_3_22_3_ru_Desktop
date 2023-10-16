@@ -45,5 +45,12 @@ namespace Strips
         {
             
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            var colorPicker = new FontDialog();
+
+            colorPicker.ShowDialog();
+        }
     }
 }
